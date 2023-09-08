@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<title>Castaway</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-inner">
+				<div class="header__menu">
+					<a class="header__logo" href="#">Castaway</a>
+					<nav class="nav header__nav">
+						<ul class="header__nav-menu">
+							<li class="nav__item">
+								<a class="nav__link" href="#home">Home</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#episodes">Episodes</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#about">About</a>
+							</li>
+							<li class="nav__item">
+								<a class="nav__link" href="#contact">Contact</a>
+							</li>
+						</ul>
+						<div class="header__hamburger hamburger">
+							<span class="hamburger__bar"></span>
+							<span class="hamburger__bar"></span>
+							<span class="hamburger__bar"></span>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="hero" id="home">
+			<div class="container">
+				<div class="hero-inner">
+					<div class="hero__img"></div>
+					<div class="hero-content">
+						<p class="hero-content__paragraph">Take your<br>podcast to the<br>next <span>level</span></p>
+						<div class="hero-content__social social">
+							<p class="social__paragraph">Listen on</p>
+							<div class="social__icons">
+								<a href="#"><img src="src/img/pocket-cast.png" alt="pocket cast icon"></a>
+								<a href="#"><img src="src/img/apple.png" alt="apple podcasts icon"></a>
+								<a href="#"><img src="src/img/soundcloud.png" alt="soundcloud icon"></a>
+								<a href="#"><img src="src/img/overcast.png" alt="overcast icon"></a>
+								<a href="#"><img src="src/img/spotify.png" alt="spotify icon"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="episodes" id="episodes">
+			<div class="container">
+				<div class="episodes-inner">
+					<div class="episodes__top">
+						<h2 class="episodes__heading">Latest episodes</h2>
+						<a href="#"><button class="button episodes__main-button">View all episodes</button></a>
+					</div>
+					<div class="episodes__list">
+						<div class="card episodes__item episode-card">
+							<img src="src/img/episode3.png" class="episode__img episode__img3"></img>
+							<div class="episode-card__content">
+								<div class="episode-card__tag">Gear</div>
+								<p class="episode-card__number">Episode 3</p>
+								<h2 class="episode-card__title">Should you get outboard audio gear?</h2>
+								<p class="episode-card__paragraph">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+								<a href="#"><button class="button episode-card__button">View Episode Details</button></a>
+							</div>
+						</div>
+						<div class="card episodes__item episode-card">
+							<img src="src/img/episode2.png" class="episode__img episode__img2"></img>
+							<div class="episode-card__content">
+								<div class="episode-card__tag">Tips & Tricks</div>
+								<p class="episode-card__number">Episode 2</p>
+								<h2 class="episode-card__title">Mic tricks to take you to the next level</h2>
+								<p class="episode-card__paragraph">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+								<a href="#"><button class="button episode-card__button">View Episode Details</button></a>
+							</div>
+						</div>
+						<div class="card episodes__item episode-card">
+							<img src="src/img/episode1.png" class="episode__img episode__img1"></img>
+							<div class="episode-card__content">
+								<p class="episode-card__tag">Gear</p>
+								<p class="episode-card__number">Episode 1</p>
+								<h2 class="episode-card__title">The best microphone under $200</h2>
+								<p class="episode-card__paragraph">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+								<a href="#"><button class="button episode-card__button">View Episode Details</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about-inner">
+					<div class="about-content">
+						<div class="about__arrow"></div>
+						<p class="about__subtitle">Meet your host</p>
+						<h2 class="about__title">Jacob Paulaner</h2>
+						<p class="about__paragraph">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+						<p class="about__paragraph">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+					</div>
+					<div class="about__img"></div>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="contact-inner">
+					<div class="banner card contact__banner">
+						<div class="banner__content">
+							<p class="banner__paragraph">Email Newsletter</p>
+							<h2 class="banner__heading">Subscribe for updates</p>
+						</div>
+						<form class="banner__form">
+							<input class="form__input" type="text" name='name' id='inputName' placeholder="Name"
+							required>
+
+							<input class="form__input" type="email" name='email' id='inputEmail' placeholder="Email"
+							pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30" required>
+							<button class="button form__button" type="submit">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="comments" id="comments">
+			<div class="container">
+				<div class="comments-inner">
+					<div class="comments__list">
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+								
+							</div>
+							<p class="comments__text">Realy usefull podcast. Thank you!</p>
+							<p class="comments__author">Betty Lacey</p>
+						</div>
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+			
+							</div>
+							<p class="comments__text">Jacob is the best in the business</p>
+							<p class="comments__author">Adam Driver</p>
+						</div>
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+							
+							</div>
+							<p class="comments__text">A wealth of audio knowledge</p>
+							<p class="comments__author">Betty Lacey</p>
+						</div>
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+			
+							</div>
+							<p class="comments__text">Every episode is a gem!</p>
+							<p class="comments__author">Marcus Brown</p>
+						</div>
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+					
+							</div>
+							<p class="comments__text">Realy usefull podcast. Thank you!</p>
+							<p class="comments__author">Jessica Knowl</p>
+						</div>
+						<div class="comments__list-item card">
+							<div class="comments__stars">
+				
+							</div>
+							<p class="comments__text">I’ve upped my game considerably since I started listening</p>
+							<p class="comments__author">John Muir</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<div class="footer__content">
+						<div class="footer__left">
+							<h2 class="footer__logo">Castaway</h2>
+							<div class="footer__social">
+								<a href="#"><img src="src/img/instagram.png" alt="instagram icon"></a>
+								<a href="#"><img src="src/img/fb.png" alt="meta(facebook) icon"></a>
+								<a href="#"><img src="src/img/twitter.png" alt="twitter icon"></a>
+							</div>
+						</div>
+						<div class="footer__nav">
+							<ul class="footer__links">
+								<li class="footer__links-item"><a class="footer__link" href="#">Home</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">About</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Episodes</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Contact</a></li>
+							</ul>
+							<ul class="footer__links">
+								<li class="footer__links-item"><a class="footer__link" href="#">Style Guide</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Instructions</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Changelog</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Credit</a></li>
+								<li class="footer__links-item"><a class="footer__link" href="#">Licenses</a></li>
+							</ul>
+						</div>
+						<div class="footer__right">
+							<div class="social__icons">
+								<a href="#"><img src="src/img/pocket-cast.png" alt="pocket cast icon"></a>
+								<a href="#"><img src="src/img/apple.png" alt="apple podcasts icon"></a>
+								<a href="#"><img src="src/img/soundcloud.png" alt="soundcloud icon"></a>
+								<a href="#"><img src="src/img/overcast.png" alt="overcast icon"></a>
+								<a href="#"><img src="src/img/spotify.png" alt="spotify icon"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
